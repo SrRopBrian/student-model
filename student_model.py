@@ -113,7 +113,6 @@ def main():
     semester_3_2.add_unit(unit4)
 
     student = Student(name="Rop K.", reg_no="CS2025/1234", course=course)
-    student2 = Student(name="Jane Doe", reg_no="CS2025/5678", course=course)
     student.semester = semester_3_2
  
     print(university.get_details())
