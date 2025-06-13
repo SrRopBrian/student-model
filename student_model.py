@@ -77,7 +77,7 @@ class Student():
                 grade = "B, Pass"
             elif score >= 50:
                 grade = "C, Pass"
-            elif score >= 40:
+            elif score >= 35:
                 grade = "D, Pass"
             else:
                 grade = "F, Fail"
